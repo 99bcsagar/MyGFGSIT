@@ -1,19 +1,20 @@
 {
   "project_info": {
-    "project_number": "479187269373",
-    "firebase_url": "https://gfgscdb.firebaseio.com",
-    "project_id": "gfgscdb",
-    "storage_bucket": "gfgscdb.appspot.com"
+    "project_number": "798455205252",
+    "firebase_url": "https://utility-braid-273716.firebaseio.com",
+    "project_id": "utility-braid-273716",
+    "storage_bucket": "utility-braid-273716.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:479187269373:android:7259f8e10f4c0acdedf094",
+        "mobilesdk_app_id": "1:798455205252:android:55e4da7c04fae5c72461d1",
         "android_client_info": {
-          "package_name": "com.gfg.our_gfg"
+          "package_name": "com.GFGSIT.GfGSIT"
         }
       },
       "oauth_client": [
+         
         {
           "client_id": "479187269373-m985bc1kikpl3f95dvede48pbodg9rba.apps.googleusercontent.com",
           "client_type": 1,
@@ -23,20 +24,20 @@
           }
         },
         {
-          "client_id": "479187269373-fabggkcgcqe2a87uh138nsfnskuq7tc6.apps.googleusercontent.com",
+          "client_id": "798455205252-ugrd1dkgrerv36isp7bpg8c8rtrht9sl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAJfI7BsbEiFs3sVNNYvsS2WhkBYqfk_pc"
+          "current_key": "AIzaSyCiNR__-K2EoKrkgrnQS4fLVk4Z8po-7mE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "479187269373-fabggkcgcqe2a87uh138nsfnskuq7tc6.apps.googleusercontent.com",
+              "client_id": "798455205252-ugrd1dkgrerv36isp7bpg8c8rtrht9sl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
