@@ -83,14 +83,14 @@ class _CustomAppDrawerState extends State<CustomAppDrawer> {
           ),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, Mission.routeName);
+              Navigator.pushNamed(context, MissionAndVisionState.routeName);
             },
           child: ListTile(
               title: Text(
-                "Mission",
+                "Mission and Vision",
               ),
               leading: Icon(
-                Icons.,
+                Icons.target,
                 color: Color.fromRGBO(47, 141, 70, 1),
               ),
             ),
