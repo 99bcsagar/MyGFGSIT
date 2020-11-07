@@ -46,7 +46,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                 child: Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "With the Dream of imparting programming knowledge, Mr. Sandeep Jain, Alumni of IIT Ropar started GeeksforGeeks. We at Geeksfor Geeks Create the Next Generation Technology Poineers.This is a a Non-profit Organization which Believes in Helping Students and core values.",
+                    "With the Dream of imparting programming knowledge, Mr. Sandeep Jain, Alumni of IIT Ropar started GeeksforGeeks. We at Geeksfor Geeks Create the Next Generation Technology Poineers.This is a a Non-profit Organization which Believes in Helping Students and our core values.",
                     style: TextStyle(
                       fontSize: 22.0,
                       color: Colors.black,
