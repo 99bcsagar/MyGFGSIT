@@ -84,7 +84,8 @@ class About extends StatelessWidget {
                 margin: EdgeInsets.only(left: 20, right: 20),
                 child: Text(
                   "We are the Geeks of Siddaganga Institute of Technology. We are powered by GeeksforGeeks Organization. We Help Students in the field of Computer Science and Artificial Intelligence in their path to potential placement and Higher Education. Our Alumni Work at Google, Microsoft, Amazon, Facebook, UBER, Cisco, Adobe, Media.net, Tower Research and many other companies",
-                  style: TextStyle(fontSize: 18),
+                  style: TextStyle(color: Color(0xFF2F8D46),
+                                   fontSize: 18),
                   textAlign: TextAlign.start,
                 )),
             SizedBox(
