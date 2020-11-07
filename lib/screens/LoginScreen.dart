@@ -56,16 +56,6 @@ class _LoginScreenState extends State<LoginScreen> {
     }
   }
 
-  // ignore: unused_element
-  _logout() {
-    _googleSignIn.signOut();
-    setState(
-      () {
-        _isLoggedIn = false;
-      },
-    );
-  }
-
   @override
   void dispose() {
     // Cleaning up controllers.
