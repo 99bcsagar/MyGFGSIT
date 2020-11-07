@@ -38,7 +38,7 @@ class _CustomAppDrawerState extends State<CustomAppDrawer> {
             margin: EdgeInsets.symmetric(vertical: 0, horizontal: 2.5),
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("assets/images/logo.jpeg"),
+                    image: AssetImage("assets/images/logo.png"),
                     fit: BoxFit.cover)),
             child: null,
           ),
