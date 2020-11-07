@@ -49,7 +49,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                     "With the Dream of imparting programming knowledge, Mr. Sandeep Jain, Alumni of IIT Ropar started GeeksforGeeks. We at Geeksfor Geeks Create the Next Generation Technology Poineers.This is a a Non-profit Organization which Believes in Helping Students and our core values.",
                     style: TextStyle(
                       fontSize: 22.0,
-                      color: Colors.black,
+                      color: Colors.white,
                     ),
                   ),
                 ),
@@ -78,7 +78,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                     "   Our Vision is to impart Free Knowledge about Programming, Data Structures and Algorithms, Operating Systems, DBMS, Computer Architecture Organization, Artificial Intelligence,OOPs, Aptitude, Puzzles and help students with Projects,Potential Placements and Higher Education. ",
                     style: TextStyle(
                       fontSize: 22.0,
-                      color: Colors.black,
+                      color: Colors.white,
                     ),
                   ),
                 ),
