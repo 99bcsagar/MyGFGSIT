@@ -31,7 +31,7 @@ class About extends StatelessWidget {
               margin: EdgeInsets.only(top: 20),
               child: Center(
                 child: Text(
-                  'GeeksForGeeks Student Chapter',
+                  'GeeksForGeeks SIT',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Color(0xFF2F8D46),
@@ -83,7 +83,7 @@ class About extends StatelessWidget {
             Container(
                 margin: EdgeInsets.only(left: 20, right: 20),
                 child: Text(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                  "We are the Geeks of Siddaganga Institute of Technology. We are powered by GeeksforGeeks Organization. We Help Students in Computer Science and Electrical Field in their path to potential placement and Higher Education. Our Alumni Work at Google, Microsoft, Amazon, Facebook, UBER, Cisco, Adobe",
                   style: TextStyle(fontSize: 18),
                   textAlign: TextAlign.start,
                 )),
