@@ -5,7 +5,7 @@ import 'package:share/share.dart';
 
 import '../screens/EventRegistration.dart';
 import '../screens/contact_us_screen.dart';
-import '../screens/mission.dart'
+import '../screens/mission.dart';
 import '../screens/homepage.dart';
 import '../screens/LoginScreen.dart';
 import '../screens/about_screen.dart';
