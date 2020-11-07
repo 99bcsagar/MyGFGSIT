@@ -90,7 +90,7 @@ class _CustomAppDrawerState extends State<CustomAppDrawer> {
                 "Mission and Vision",
               ),
               leading: Icon(
-                Icons.target,
+                Icons.like,
                 color: Color.fromRGBO(47, 141, 70, 1),
               ),
             ),
