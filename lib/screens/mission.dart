@@ -14,6 +14,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       drawer: CustomAppDrawer(),
       appBar: AppBar(
         title: Text(
