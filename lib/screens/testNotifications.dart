@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:our_gfg/services/one_signal_service.dart';
+import 'package:GFGSIT/services/one_signal_service.dart';
 
 class TestNotifications extends StatelessWidget {
   final String name = "Test event";
