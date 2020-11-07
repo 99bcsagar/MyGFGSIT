@@ -94,7 +94,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   decoration: BoxDecoration(
                       image: DecorationImage(
                           //graphic design used for the screen
-                          image: AssetImage('assets/images/login-design.png'),
+                          image: AssetImage('assets/images/login-design.gif'),
                           fit: BoxFit.fitHeight)),
                 ),
               ),
