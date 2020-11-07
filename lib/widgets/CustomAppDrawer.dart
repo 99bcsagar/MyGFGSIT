@@ -88,10 +88,15 @@ class _CustomAppDrawerState extends State<CustomAppDrawer> {
           child: ListTile(
               title: Text(
                 "Mission and Vision",
-             
-              
+               ),
+              leading: Icon(
+                Icons.contact_page,
+                color: Color.fromRGBO(47, 141, 70, 1),
+              ),
             ),
           ),
+              
+         
           Divider(
             color: Color.fromRGBO(47, 141, 70, 1),
           ),
