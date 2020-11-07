@@ -31,7 +31,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
               SizedBox(
                 height: 80.0,
                 child: TextLiquidFill(
-                  text: 'Mission Of GFG',
+                  text: 'Mission Of GeeksForGeeks',
                   waveColor: Colors.white,
                   boxBackgroundColor: Color.fromRGBO(128, 199, 131, 1),
                   textStyle: TextStyle(
@@ -46,7 +46,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                 child: Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "With the idea ofg imparting programming knowledge, Mr. Sandeep Jain, an IIT Roorkee alumnus started a dream, GeeksforGeeks. Whether programming excites you or you feel stifled, wondering how to prepare for interview questions or how to ace data structures and algorithms, GeeksforGeeks is a one-stop solution. With every tick of time, we are adding arrows in our quiver. From articles on various computer science subjects to programming problems for practice, from basic to premium courses, from technologies to entrance examinations, we have been building ample content with superior quality.",
+                    "With the Dream of imparting programming knowledge, Mr. Sandeep Jain, an IIT Roorkee alumnus started a GeeksforGeeks. Wheather programming excites you or you feel stifled, wondering how to prepare for interview questions or how to ace data structures and algorithms, GeeksforGeeks is a one-stop solution. With every tick of time, we are adding arrows in our quiver. From articles on various computer science subjects to programming problems for practice, from technologies to entrance examinations, we have been building ample content with superior quality.",
                     style: TextStyle(
                       fontSize: 22.0,
                       color: Colors.black,
@@ -60,7 +60,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
               SizedBox(
                 height: 80.0,
                 child: TextLiquidFill(
-                  text: 'Vision Of GFG',
+                  text: 'Vision Of GeeksForGeeks SIT',
                   waveColor: Colors.white,
                   boxBackgroundColor: Color.fromRGBO(128, 199, 131, 1),
                   textStyle: TextStyle(
@@ -75,7 +75,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                 child: Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words and letters have been changed by addition or removal, so to deliberately render its content nonsensical; it's not genuine, correct, or comprehensible Latin anymore.",
+                    "   Our Mission is to impart Free Knowledge about Programming, Data Structures and Algorithms, Operating Systems, DBMS, Computer Architecture Organization, Artificial Intelligence,OOPs, Aptitude, Puzzles, Interview Experiences help students with Projects,Potential Placements and Higher Education ",
                     style: TextStyle(
                       fontSize: 22.0,
                       color: Colors.black,
