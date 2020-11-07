@@ -46,7 +46,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                 child: Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "With the Dream of imparting programming knowledge, Mr. Sandeep Jain,started GeeksforGeeks. We Create the Next Generation Technology Poineers. We are a Non-profit Organization and Belive in Helping Students",
+                    "With the Dream of imparting programming knowledge, Mr. Sandeep Jain, Alumni of IIT Ropar started GeeksforGeeks. We at Geeksfor Geeks Create the Next Generation Technology Poineers.This is a a Non-profit Organization which Believes in Helping Students and core values.",
                     style: TextStyle(
                       fontSize: 22.0,
                       color: Colors.black,
@@ -75,7 +75,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                 child: Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "   Our Vision is to impart Free Knowledge about Programming, Data Structures and Algorithms, Operating Systems, DBMS, Computer Architecture Organization, Artificial Intelligence,OOPs, Aptitude, Puzzles help students with Projects,Potential Placements and Higher Education. ",
+                    "   Our Vision is to impart Free Knowledge about Programming, Data Structures and Algorithms, Operating Systems, DBMS, Computer Architecture Organization, Artificial Intelligence,OOPs, Aptitude, Puzzles and help students with Projects,Potential Placements and Higher Education. ",
                     style: TextStyle(
                       fontSize: 22.0,
                       color: Colors.black,
