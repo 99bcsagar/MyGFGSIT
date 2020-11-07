@@ -1,4 +1,4 @@
-package com.gfg.our_gfg
+package com.GFGSIT.GfGSIT
 
 import io.flutter.embedding.android.FlutterActivity
 
