@@ -83,7 +83,7 @@ class _CustomAppDrawerState extends State<CustomAppDrawer> {
           ),
           InkWell(
             onTap: () {
-              Navigator.pushNamed(context, MissionAndVisionState.routeName);
+              Navigator.pushNamed(context, MissionAndVision.routeName);
             },
           child: ListTile(
               title: Text(
