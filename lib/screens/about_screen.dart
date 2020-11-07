@@ -19,7 +19,7 @@ class About extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: Text("About Us"),
       ),
@@ -50,7 +50,7 @@ class About extends StatelessWidget {
                 backgroundColor: Color(0xFF2F8D46),
                 radius: 70,
                 child: CircleAvatar(
-                  backgroundImage: AssetImage('assets/images/logo.jpeg'),
+                  backgroundImage: AssetImage('assets/images/gfg.png'),
                   radius: 67,
                   foregroundColor: Color(0xFF2F8D46),
                 ),
@@ -64,7 +64,7 @@ class About extends StatelessWidget {
               children: [
                 TypewriterAnimatedTextKit(
                     text: ['About Us'],
-                    speed: Duration(milliseconds: 100),
+                    speed: Duration(milliseconds: 300),
                     repeatForever: true,
                     textStyle: TextStyle(
                       color: Color(0xFF2F8D46),
