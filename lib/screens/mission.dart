@@ -31,7 +31,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
               SizedBox(
                 height: 80.0,
                 child: TextLiquidFill(
-                  text: 'Mission Of GeeksForGeeks',
+                  text: 'Mission',
                   waveColor: Colors.white,
                   boxBackgroundColor: Color.fromRGBO(128, 199, 131, 1),
                   textStyle: TextStyle(
@@ -46,7 +46,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                 child: Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "With the Dream of imparting programming knowledge, Mr. Sandeep Jain, an IIT Roorkee alumnus started a GeeksforGeeks. Wheather programming excites you or you feel stifled, wondering how to prepare for interview questions or how to ace data structures and algorithms, GeeksforGeeks is a one-stop solution. With every tick of time, we are adding arrows in our quiver. From articles on various computer science subjects to programming problems for practice, from technologies to entrance examinations, we have been building ample content with superior quality.",
+                    "With the Dream of imparting programming knowledge, Mr. Sandeep Jain,started GeeksforGeeks. We Create the Next Generation Technology Poineers. We are a Non-profit Organization and Belive in Helping Students",
                     style: TextStyle(
                       fontSize: 22.0,
                       color: Colors.black,
@@ -60,7 +60,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
               SizedBox(
                 height: 80.0,
                 child: TextLiquidFill(
-                  text: 'Vision Of GeeksForGeeks SIT',
+                  text: 'Vision',
                   waveColor: Colors.white,
                   boxBackgroundColor: Color.fromRGBO(128, 199, 131, 1),
                   textStyle: TextStyle(
@@ -75,7 +75,7 @@ class _MissionAndVisionState extends State<MissionAndVision> {
                 child: Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Text(
-                    "   Our Mission is to impart Free Knowledge about Programming, Data Structures and Algorithms, Operating Systems, DBMS, Computer Architecture Organization, Artificial Intelligence,OOPs, Aptitude, Puzzles, Interview Experiences help students with Projects,Potential Placements and Higher Education ",
+                    "   Our Vision is to impart Free Knowledge about Programming, Data Structures and Algorithms, Operating Systems, DBMS, Computer Architecture Organization, Artificial Intelligence,OOPs, Aptitude, Puzzles help students with Projects,Potential Placements and Higher Education. ",
                     style: TextStyle(
                       fontSize: 22.0,
                       color: Colors.black,
