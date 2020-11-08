@@ -248,7 +248,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     //Color(0xFF0DD6BB)
                   ),
                   SizedBox(height: 10.0),
-                  Button(
+                  RaisedButton(
                     padding: EdgeInsets.only(left: 40, right: 40),
                     shape: StadiumBorder(),
                     color: Color(0xFF000000),
