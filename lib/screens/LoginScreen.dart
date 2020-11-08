@@ -71,7 +71,15 @@ class _LoginScreenState extends State<LoginScreen> {
     return ModalProgressHUD(
       inAsyncCall: _isLoading,
       child: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.black,
+        Stack(Positioned.fill(  //
+            child: Image(
+              image: AssetImage('assets/GeP3.gif'),
+              fit : BoxFit.fill,
+           ),
+          ), 
+         
+ );
         body: SingleChildScrollView(
           child: Column(
             children: [
@@ -252,16 +260,16 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     //Color(0xFF0DD6BB)
                   ),
-                  SizedBox(height: 10.0),
+                  SizedBox(height: 00.0),
                   RaisedButton(
-                    padding: EdgeInsets.only(left: 40, right: 40),
+                    padding: EdgeInsets.only(left: 00, right: 00),
                     shape: StadiumBorder(),
                     color: Color(0xFF2F8D46),
                     onPressed: () {
                       _login();
                     },
                     child: Text(
-                      'Sign In With Google',
+                      '',
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
