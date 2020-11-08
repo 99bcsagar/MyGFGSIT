@@ -74,7 +74,7 @@ class _LoginScreenState extends State<LoginScreen> {
         backgroundColor: Colors.black,
         Stack(Positioned.fill(  //
             child: Image(
-              image: AssetImage('assets/GeP3.gif'),
+              image: AssetImage('assets/images/MeP3.gif'),
               fit : BoxFit.fill,
            ),
           ), 
