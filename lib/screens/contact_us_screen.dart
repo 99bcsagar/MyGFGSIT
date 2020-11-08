@@ -48,7 +48,7 @@ class EmbeddedMaps extends StatelessWidget {
                   EmbeddedMap(),
                 ],
               )
-            ],
+            
           ),
         ),
       ),
