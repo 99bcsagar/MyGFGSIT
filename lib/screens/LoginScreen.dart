@@ -72,12 +72,7 @@ class _LoginScreenState extends State<LoginScreen> {
       inAsyncCall: _isLoading,
       child: Scaffold(
         backgroundColor: Colors.black,
-        Stack(Positioned.fill(  //
-            child: Image(
-              image: AssetImage('assets/images/MeP3.gif'),
-              fit : BoxFit.fill,
-           ),
-          ), 
+        
          
  );
         body: SingleChildScrollView(
@@ -87,7 +82,14 @@ class _LoginScreenState extends State<LoginScreen> {
                 //the GRAPHIC DESIGN included in the page
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
-                  margin: EdgeInsets.only(top: 50.0),
+              constraints: BoxConstraints.expand(),
+              decoration: BoxDecoration(
+              image: DecorationImage(
+              image: AssetImage('assets/MeP3.gif'),
+              fit: BoxFit.cover)
+              ),
+                  child: Container(
+                 margin: EdgeInsets.only(top: 50.0),
                   height: MediaQuery.of(context).size.height * 0.32,
                   decoration: BoxDecoration(
                       image: DecorationImage(
