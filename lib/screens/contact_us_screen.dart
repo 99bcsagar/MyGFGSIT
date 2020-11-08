@@ -11,10 +11,6 @@ import '../widgets/CustomAppDrawer.dart';
 class ContactUs extends StatelessWidget {
   static final String routeName = "/contact_us";
 
-  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-
-  String _name, _email, _phone, _message;
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -28,7 +24,7 @@ class ContactUs extends StatelessWidget {
            
 
 
-class EmbeddedMap extends StatelessWidget {
+class EmbeddedMaps extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
