@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "798455205252-np9f1sp9eaoo7c7djtnjnqo7v54mgkk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.GFGSIT.GfGSIT",
+            "certificate_hash": "bd6ea38864049253bc1575f522810fbcd68e8c6a"
+          }
+        },
+        {
           "client_id": "798455205252-ugrd1dkgrerv36isp7bpg8c8rtrht9sl.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -38,4 +46,3 @@
   ],
   "configuration_version": "1"
 }
-
