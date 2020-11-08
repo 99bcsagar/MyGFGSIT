@@ -1,21 +1,16 @@
-//User Login screen for the app
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
-
 import 'homepage.dart';
 import '../services/firebase_auth_service.dart';
 import 'sign_up.dart';
-
 class LoginScreen extends StatefulWidget {
   static final String routeName = "/login";
-
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
-
 String emailIdErrorMessage = "";
 String passwordErrorMessage = "";
 //string variables that store error messages
@@ -25,12 +20,10 @@ String passwordErrorMessage = "";
 //if entered Data is invalid.
 //The functions bool isValidEmail(String) and bool isValidPassword(String)
 //validate the email and password entered by user.
-
 class _LoginScreenState extends State<LoginScreen> {
   //textControllers for textFields of email and password
   final email = TextEditingController();
   final password = TextEditingController();
-
   //boolean variables that indicate whether or not entered data is valid
   bool validityEmail = true;
   bool validityPassword = true;
@@ -40,9 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
   //are called which validate entered data and return true if data is valid and false if data is invalid.
   // ignore: unused_field
   bool _isLoggedIn = false;
-
   GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
-
   _login() async {
     try {
       await _googleSignIn.signIn().then((value) {
@@ -56,6 +47,16 @@ class _LoginScreenState extends State<LoginScreen> {
     }
   }
 
+  // ignore: unused_element
+  _logout() {
+    _googleSignIn.signOut();
+    setState(
+      () {
+        _isLoggedIn = false;
+      },
+    );
+  }
+
   @override
   void dispose() {
     // Cleaning up controllers.
@@ -63,18 +64,13 @@ class _LoginScreenState extends State<LoginScreen> {
     password.dispose();
     super.dispose();
   }
-
   bool _isLoading = false;
-
   @override
   Widget build(BuildContext context) {
     return ModalProgressHUD(
       inAsyncCall: _isLoading,
       child: Scaffold(
         backgroundColor: Colors.black,
-        
-         
- );
         body: SingleChildScrollView(
           child: Column(
             children: [
@@ -82,14 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 //the GRAPHIC DESIGN included in the page
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
-              constraints: BoxConstraints.expand(),
-              decoration: BoxDecoration(
-              image: DecorationImage(
-              image: AssetImage('assets/MeP3.gif'),
-              fit: BoxFit.cover)
-              ),
-                  child: Container(
-                 margin: EdgeInsets.only(top: 50.0),
+                  margin: EdgeInsets.only(top: 50.0),
                   height: MediaQuery.of(context).size.height * 0.32,
                   decoration: BoxDecoration(
                       image: DecorationImage(
@@ -129,7 +118,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       errorText: validityEmail ? null : emailIdErrorMessage,
                       //here string stored in emailIdErrorMessage is displayed if boolean variable validityEmail is false
-
                       errorBorder: OutlineInputBorder(
                         borderSide: BorderSide(
                           color: Colors.deepOrange,
@@ -158,7 +146,6 @@ class _LoginScreenState extends State<LoginScreen> {
                           TextStyle(color: Colors.black.withOpacity(0.6)),
                       errorText: validityPassword ? null : passwordErrorMessage,
                       //here string stored in emailIdErrorMessage is displayed if boolean variable validityEmail is false
-
                       errorBorder: OutlineInputBorder(
                         borderSide:
                             BorderSide(color: Colors.deepOrange, width: 1.0),
@@ -193,7 +180,6 @@ class _LoginScreenState extends State<LoginScreen> {
                   //if data entered is invalid:
                   // 1.functions assign appropriate error messages to String variable passwordErrorMessage and String variable emailIdErrorMessage
                   // 2. and then return false.
-
                   padding: const EdgeInsets.all(16.0),
                   child: MaterialButton(
                       height: MediaQuery.of(context).size.height * 0.08,
@@ -215,7 +201,6 @@ class _LoginScreenState extends State<LoginScreen> {
                               email: email.text?.trim(),
                               password: password.text,
                             );
-
                             Navigator.pushReplacementNamed(
                               context,
                               HomePage.routeName,
@@ -262,17 +247,17 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     //Color(0xFF0DD6BB)
                   ),
-                  SizedBox(height: 00.0),
-                  RaisedButton(
-                    padding: EdgeInsets.only(left: 00, right: 00),
+                  SizedBox(height: 10.0),
+                  Button(
+                    padding: EdgeInsets.only(left: 40, right: 40),
                     shape: StadiumBorder(),
-                    color: Color(0xFF2F8D46),
+                    color: Color(0xFF000000),
                     onPressed: () {
                       _login();
                     },
                     child: Text(
-                      '',
-                      style: TextStyle(color: Colors.white),
+                      '       ',
+                      style: TextStyle(color: Colors.black),
                     ),
                   ),
                 ],
@@ -284,10 +269,8 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 }
-
 bool isValidEmail(String email) {
   //Function that VALIDATES ENTERED EMAIL ID
-
   String p =
       r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
   RegExp regExp = new RegExp(p);
@@ -302,10 +285,8 @@ bool isValidEmail(String email) {
   } else
     return true;
 }
-
 bool isValidPassword(String password) {
   //Function that VALIDATES ENTERED PASSWORD
-
   String pattern =
       r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$';
   RegExp regExp = new RegExp(pattern);
