@@ -94,6 +94,7 @@ class ContactUs extends StatelessWidget {
                 enableMultilineText: true,
                 prefixIconData: Icons.message,
               ),
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUOLOJvRvzW1y7kZVQaAi-hO7WQKKPGQGiXJ0PhTIFzdKxSQ/viewform?embedded=true" width="500" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
               SizedBox(
                 height: 20.0,
               ),
